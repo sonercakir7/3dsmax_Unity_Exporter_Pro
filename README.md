@@ -6,6 +6,11 @@
 
 **3ds Max Unity Exporter Pro** is a robust MaxScript tool designed to streamline the asset pipeline between Autodesk 3ds Max (2024, 2025, 2026) and Unity 3D. It handles batch exporting, coordinate correction, pivot adjustments, and naming conventions automatically.
 
+
+<img width="744" height="679" alt="image" src="https://github.com/user-attachments/assets/8f3596b9-739a-4518-b1dc-526f2d69b50b" />
+
+
+
 ## 🚀 Features
 
 * **Smart Group Handling:** Exports groups as single FBX files without breaking hierarchy or exploding components.

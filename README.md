@@ -23,10 +23,6 @@
 1.  Download the latest `.ms` file from the [Releases](../../releases) page.
 2.  Drag and drop the script into the 3ds Max viewport.
 3.  **Alternatively:** Go to `Scripting > Run Script...` and select the file.
-4.  To create a toolbar button:
-    * Go to `Customize > Customize User Interface > Toolbars`.
-    * Look for the category **"CakirTools"** (or check *Soner Cakir* scripts).
-    * Drag "Unity Exporter Pro" to your toolbar.
 
 ## 🎮 Usage
 
@@ -47,6 +43,50 @@
 This project is licensed under the **GNU General Public License v3.0**. See the [LICENSE](LICENSE) file for details.
 
 ## 👤 Author
+
+**Soner Çakır**
+* GitHub: [@sonercakir7](https://github.com/sonercakir7)
+
+
+___________
+# 3ds Max Unity Exporter Pro (Türkçe)
+
+![License](https://img.shields.io/badge/license-GPLv3-blue.svg)
+![Platform](https://img.shields.io/badge/platform-3ds%20Max%20%7C%20Unity-orange)
+
+**3ds Max Unity Exporter Pro**, Autodesk 3ds Max (2024-2026) ve Unity 3D arasındaki model aktarım sürecini hızlandırmak için geliştirilmiş güçlü bir MaxScript aracıdır. Toplu export işlemleri, koordinat düzeltmeleri, pivot ayarları ve isimlendirme kurallarını otomatik olarak yönetir.
+
+## 🚀 Özellikler
+
+* **Akıllı Grup Yönetimi:** Gruplanmış objeleri hiyerarşiyi bozmadan veya dağıtmadan tek bir FBX olarak dışa aktarır.
+* **Unity Koordinat Uyumu:** Z-Yukarı (Max) ekseninden Y-Yukarı (Unity) eksenine sorunsuz dönüşüm sağlar.
+* **Toplu İşlem (Batch):** Yüzlerce objeyi saniyeler içinde export eder, işlem sırasında detaylı log tutar.
+* **Otomatik Collider Oluşturma:** İsteğe bağlı olarak Unity ve Unreal ile uyumlu (`UCX_` öneki ile) optimize edilmiş mesh collider üretir.
+* **İsim Düzenleme (Sanitization):** Dosya adlarındaki boşlukları ve geçersiz karakterleri temizler, otomatik olarak `snake_case` formatına çevirebilir.
+* **Akıllı Reset XForm:** Hiyerarşiyi bozmamak için sadece geometri objelerine XForm uygular.
+* **Pivot Kontrolü:** Pivot noktasını "Taban Merkez", "Obje Merkezi" veya "Orijinal" olarak ayarlama imkanı.
+* **FBX Versiyon Seçimi:** FBX 2009 (Eski/Stabil), 2014 ve 2020 (PBR) formatlarını destekler.
+
+## 📦 Kurulum
+
+1.  En güncel `.ms` dosyasını indirin.
+2.  Dosyayı 3ds Max ekranına sürükleyip bırakın.
+3.  **Alternatif:** `Scripting > Run Script...` menüsünden dosyayı seçin.
+
+## 🎮 Kullanım
+
+1.  Sahnede export etmek istediğiniz objeleri veya grupları seçin.
+2.  Scripti çalıştırın.
+3.  **Geometry Processing:** Pivot tercihinizi ve Reset XForm isteğinizi belirtin.
+4.  **Naming:** Prefix (Örn: `SM_`) ve Suffix ayarlarını yapın.
+5.  **Export Path:** Unity projenizin `Assets` klasörünü seçin.
+6.  **START BATCH EXPORT** butonuna tıklayın.
+
+## 📄 Lisans
+
+Bu proje **GNU General Public License v3.0** ile lisanslanmıştır. Detaylar için [LICENSE](LICENSE) dosyasına bakınız.
+
+## 👤 Yapımcı
 
 **Soner Çakır**
 * GitHub: [@sonercakir7](https://github.com/sonercakir7)
